@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/menu_add_item"
+		android:title="@string/add_item" />
+	<item
+		android:id="@+id/menu_remove_all_button"
+		android:title="@string/remove_all_button" />
+	<item
+		android:id="@+id/menu_selected_all_compound_button"
+		android:title="@string/selected_all_compound_button" />
+	<item
+		android:id="@+id/menu_refresh"
+		android:title="@string/refresh" />
+</menu>

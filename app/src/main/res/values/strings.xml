@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bdapter Sample Application</string>
+    <string name="add_item">add item</string>
+	<string name="remove_all_button">remove all button</string>
+	<string name="selected_all_compound_button">selected all Compound button</string>
+	<string name="refresh">refresh</string>
+</resources>

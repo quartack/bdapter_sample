@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="item"
+            type="com.quartack.bdapter.sample.tree.model.LeafItem" />
+
+        <variable
+            name="viewModel"
+            type="com.quartack.bdapter.sample.tree.TreeViewModel" />
+    </data>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:paddingStart="8dp"
+        android:text='@{"LeafItem #" + item.id}' />
+</layout>

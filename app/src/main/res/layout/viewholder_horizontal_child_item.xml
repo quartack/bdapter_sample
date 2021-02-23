@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="item"
+            type="com.quartack.bdapter.sample.recycler_inside_recycler.model.HorizontalItem.ChildItem" />
+
+        <variable
+            name="viewModel"
+            type="com.quartack.bdapter.sample.recycler_inside_recycler.RIRViewModel" />
+    </data>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        app:imageResource="@{item.res}" />
+</layout>
